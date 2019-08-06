@@ -24,7 +24,7 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
   margin: 0 0 50px;
-  padding: 25px;
+  padding: 125px;
 }
 
 .container {
@@ -280,7 +280,6 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $darkGray;
-  margin-bottom: -50px;
 }
 
 .footer {
@@ -289,7 +288,7 @@ nav {
   left: 0;
   bottom: 0;
   height: 50px;
-  width: 100%;
+  width: 50%;
   overflow: hidden;
   text-align: center
 }
