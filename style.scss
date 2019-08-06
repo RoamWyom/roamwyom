@@ -279,11 +279,13 @@ nav {
   margin-bottom: -50px;
 }
 
-footer,
-push  {
-  height: 50px;
+.footer{
   padding: 20px 0;
   text-align: center;
+}
+
+.push  {
+  height: 50px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
