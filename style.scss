@@ -23,6 +23,8 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  margin: 0 0 50px;
+  padding: 25px;
 }
 
 .container {
@@ -282,6 +284,7 @@ nav {
 }
 
 .footer {
+  background-color: $darkGray;
   position: absolute;
   left: 0;
   bottom: 0;
