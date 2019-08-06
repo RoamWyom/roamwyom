@@ -285,13 +285,13 @@ nav {
 
 .footer {
   background-color: $darkGray;
+  text-align: center
   position: absolute;
   left: 0;
   bottom: 0;
   height: 50px;
   width: 50%;
   overflow: hidden;
-  text-align: center
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
