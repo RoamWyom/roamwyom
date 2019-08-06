@@ -72,11 +72,11 @@ p {
 }
 
 a {
-  color: $brown;
+  color: $yellow;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $yellow;
+    color: $brown;
   }
 }
 
@@ -214,7 +214,7 @@ img {
 }
 
 nav {
-  /* float: right; */
+  float: left;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -226,10 +226,19 @@ nav {
     font-size: 16px;
   }
 
+  nav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+nav a.active {
+  background-color: $lightGray;
+  color: lightGray;
+}
   a {
     margin-left: 20px;
     color: $yellow;
-    text-align: right;
+    text-align: bottom;
     font-weight: 300;
     letter-spacing: 1px;
 
