@@ -304,7 +304,7 @@ nav a.active {
 /**
  * the sticky footer mixin
  **/
-@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) 
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".wrapper"), $container-selector: unquote(".container"), $footer-selector: unquote(".footer")) 
   #{$wrapper-selector} {
     min-height: 100%;
     height: auto !important;
@@ -329,15 +329,15 @@ nav a.active {
  **/
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
-html,body,#wrapper,#container,#footer {
+html,body,.wrapper,.container,.footer {
   width:100%;
 }
 
-wrapper {
+.wrapper {
   background: #0F0F0F;
 }
 
-footer {
+.footer {
   background-color: $black;
   text-align: center;
 }
