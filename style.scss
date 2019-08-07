@@ -301,8 +301,68 @@ nav a.active {
   text-align: right;
 }
 
+/**
+ * the sticky footer mixin
+ **/
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    } 
+  }
+  #{$footer-selector} {
+    height: $footer-height; 
+  }
+}
 
-.wrapper-footer {
+/**
+ * the sticky footer implementation
+ **/
+@include sticky-footer(50px);
+
+/**
+ * other styling just to make the demo more appealing
+ **/
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+html,body,#wrapper,#container,#footer {
+  width:100%;
+}
+#wrapper {
+  background: #0F0F0F;
+}
+p {
+  margin: 0;
+  padding: 5% 0 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2.5em;
+  color: #555;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+#footer {
+  background: #F32;
+}
+
+
+
+
+
+
+
+
+/* .wrapper-footer {
   min-height: 100%;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -321,7 +381,7 @@ nav a.active {
   width: 100%;
   padding: 5px;
   overflow: hidden;
-}
+} */
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
