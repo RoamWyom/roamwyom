@@ -332,10 +332,12 @@ nav a.active {
 html,body,#wrapper,#container,#footer {
   width:100%;
 }
-#wrapper {
+
+wrapper {
   background: #0F0F0F;
 }
-#footer {
+
+footer {
   background-color: $black;
   text-align: center;
 }
