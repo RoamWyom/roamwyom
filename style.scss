@@ -304,14 +304,7 @@ nav a.active {
 /**
  * the sticky footer mixin
  **/
-@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
-  html, body {
-    height: 100%;
-  }
-  body {
-    margin: 0px;
-    padding: 0px;
-  }
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) 
   #{$wrapper-selector} {
     min-height: 100%;
     height: auto !important;
@@ -352,7 +345,8 @@ p {
   text-align: center;
 }
 #footer {
-  background: #F32;
+  background-color: $black;
+  text-align: center;
 }
 
 
