@@ -311,13 +311,13 @@ nav a.active {
 }
 
 .footer {
+  background-color: $black;
   position:absolute;
   text-align: center;
   vertical-align: middle;
   bottom:0;
   width:100%;
   height:60px;   /* Height of the footer */
-  background-color: $black;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
