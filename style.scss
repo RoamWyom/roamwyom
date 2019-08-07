@@ -316,9 +316,18 @@ nav a.active {
   position:absolute;
   text-align: center;
   vertical-align: middle;
-  bottom:0;
+  background-attachment: scroll;
+  left: 0;
+  bottom: 0;
   width:100%;
-  height:60px;   /* Height of the footer */
+  height:60px;    /* Height of the footer */
+  position: fixed;
+}
+
+.footer_contents {
+  height: 60px;
+  width: 1000px;
+  margin: auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
