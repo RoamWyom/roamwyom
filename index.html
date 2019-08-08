@@ -10,5 +10,13 @@ layout: default
   <body>
     <h1>RoamWyom</h1>
     <p>Welcome to RoamWyom, where we roam freely and enjoy every adventure!</p>
+    	<h1>Latest Post</h1>
+			{% for post in site.posts limit:1 %}
+				... Show the first post all big ...
+			{% endfor %}
+		<h1>Recent Posts</h1>
+			{% for post in site.posts offset:1 limit:2 %}
+				... Show the next two posts ...
+			{% endfor %}
   </body>
 </html>

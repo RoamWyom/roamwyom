@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #1ed287;
   font: 18px/1.4 Helvetica, Arial, sans-serif;
   color: #333;
   margin: 0 auto 50px;
@@ -149,11 +149,15 @@ img {
 /*********************/
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #403020;
+  border-bottom: 4px solid #e5d610;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  background-color: #1ed287; 
+  border-bottom: .5px solid #e5d610;
+  text-align: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -162,21 +166,22 @@ img {
   }
 }
 .site-avatar {
-  float: left;
+  vertical-align: middle;
   width: 140px;
   height: 140px;
-  margin: 0 14em 2em;
+  margin: auto 1em;
 }
 
 @media screen and (max-width: 640px) {
   .site-avatar {
     float: none;
+    vertical-align: middle;
     display: block;
-    margin: 0 auto;
+    margin: auto;
   }
 }
 .site-avatar img {
-  border-radius: 1em;
+  border-radius: 4em;
 }
 
 .site-info {
@@ -201,10 +206,10 @@ img {
 }
 
 .site-description {
-  margin-bottom: auto;
+  margin: auto 10.4em 1em;
   color: #666;
   font-size: 1em;
-  padding-left: 9em;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 640px) {
@@ -214,30 +219,28 @@ img {
   }
 }
 nav {
-  float: left;
   margin-top: 2em;
-  margin-left: 26%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 640px) {
   nav {
-    float: right;
-    margin-top: .1em;
-    margin-left: 2em;
     display: block;
     font-size: 1em;
+    vertical-align: middle;
   }
 }
 nav a.selected, nav a:hover {
-  background-color: $brown;
+  background-color: #1e5ed2;
   color: brown;
-  font-color: $yellow;
+  font-color: #FFD700;
+  font-size: 1.1em;
 }
 
 nav a:active {
-  background-color: $brown;
+  background-color: #D2691E;
   color: brown;
 }
 
@@ -257,7 +260,7 @@ nav a {
 }
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: .1em solid #e5d610;
 }
 
 .posts > .post:last-child {
@@ -303,14 +306,14 @@ nav a {
 
 .wrapper-footer {
   min-height: 100%;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #e5d610;
+  border-bottom: 1px solid #e5d610;
   background-color: #333;
   margin: auto auto 60px;
 }
 
 .footer {
-  background-color: #000;
+  background-color: #403020;
   position: absolute;
   text-align: center;
   vertical-align: middle;
