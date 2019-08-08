@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: #1ed287;
+  background: $white;
   font: 18px/1.4 Helvetica, Arial, sans-serif;
   color: #333;
   margin: 0 auto 50px;
@@ -149,14 +149,14 @@ img {
 /*********************/
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #403020;
-  border-bottom: 4px solid #e5d610;
+  background-color: $white;
+  border-bottom: 4px solid $yellow;
 }
 
 .masthead {
   padding: 20px 0;
-  background-color: #1ed287; 
-  border-bottom: .5px solid #e5d610;
+  background-color: $white; 
+  border-bottom: .5px solid $yellow;
   text-align: center;
 }
 
@@ -240,13 +240,13 @@ nav a.selected, nav a:hover {
 }
 
 nav a:active {
-  background-color: #D2691E;
-  color: brown;
+  background-color: $lightGray;
+  color: lightGray;
 }
 
 nav a {
   margin-left: 20px;
-  color: #FFD700;
+  color: $yellow;
   text-align: bottom;
   font-weight: 300;
   letter-spacing: .03em;
@@ -255,12 +255,12 @@ nav a {
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
-    color: #FFD700;
+    color: $yellow;
   }
 }
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: .1em solid #e5d610;
+  border-bottom: .1em solid $yellow;
 }
 
 .posts > .post:last-child {
