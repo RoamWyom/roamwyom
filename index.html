@@ -12,8 +12,7 @@ layout: default
     <p>Welcome to RoamWyom, where we roam freely and enjoy every adventure!</p>
     	<h1>Latest Post</h1>
 			{% for post in site.posts limit:1 %}
-				{{ site.posts.first.content}}
-				{{ site.posts.first.comments}}
+				{{ site.posts.first.content, site.posts.first.comment}}
 			{% endfor %}
   </body>
 </html>
