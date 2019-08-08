@@ -233,8 +233,9 @@ nav {
   }
 }
 nav a.selected, nav a:hover {
-  background-color: $lightGray;
-  color: lightGray;
+  background-color: $brown;
+  color: brown;
+  font-color: $yellow;
 }
 
 nav a:active {
