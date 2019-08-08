@@ -230,12 +230,11 @@ nav {
     margin-left: 2em;
     display: block;
     font-size: 1em;
-    padding-right: 6em
   }
 }
 nav a.selected, nav a:hover {
-  background-color: $black;
-  color: black;
+  background-color: $lightGray;
+  color: lightGray;
 }
 
 nav a:active {
