@@ -43,15 +43,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 15px;
   padding: 0;
 }
+
 @media screen and (max-width: 640px) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-
 h1 {
   font-size: 30px;
 }
+
 h1 a {
   color: inherit;
 }
@@ -78,6 +79,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 a:hover, a:active {
   color: #D2691E;
 }
@@ -155,18 +157,19 @@ img {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
+
 @media screen and (max-width: 640px) {
   .masthead {
     text-align: center;
   }
 }
-
 .site-avatar {
   float: left;
   width: 140px;
   height: 140px;
   margin: 0 14em 2em;
 }
+
 @media screen and (max-width: 640px) {
   .site-avatar {
     float: none;
@@ -181,6 +184,7 @@ img {
 .site-info {
   float: left;
 }
+
 @media screen and (max-width: 640px) {
   .site-info {
     float: none;
@@ -188,7 +192,6 @@ img {
     margin: 0 auto;
   }
 }
-
 .site-name {
   margin: 0;
   color: #333;
@@ -205,12 +208,13 @@ img {
   font-size: 1em;
   padding-left: 9em;
 }
+
 @media screen and (max-width: 640px) {
   .site-description {
-    margin: 3px 0;
+    padding-left: .2em;
+    margin: 1em 2em;
   }
 }
-
 nav {
   float: left;
   margin-top: 2em;
@@ -218,22 +222,27 @@ nav {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
+
 @media screen and (max-width: 640px) {
   nav {
-    float: none;
-    margin-top: 9px;
+    float: right;
+    margin-top: .1em;
+    margin-left: 2em;
     display: block;
-    font-size: 16px;
+    font-size: 1em;
+    padding-right: 6em
   }
 }
 nav nav a:hover {
   background-color: #862525;
   color: black;
 }
+
 nav nav a.active {
   background-color: #4c41a5;
   color: black;
 }
+
 nav a {
   margin-left: 20px;
   color: #FFD700;
@@ -241,13 +250,13 @@ nav a {
   font-weight: 300;
   letter-spacing: .03em;
 }
+
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
     color: #FFD700;
   }
 }
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid #eee;
@@ -266,9 +275,11 @@ nav a {
   font-size: 22px;
   font-style: italic;
 }
+
 .post .comments {
   margin-top: 10px;
 }
+
 .post .read-more {
   text-transform: uppercase;
   font-size: 15px;
