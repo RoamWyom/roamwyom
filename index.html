@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: default
 ---
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@ layout: null
     <p>Welcome to RoamWyom, where we roam freely and enjoy every adventure!</p>
     	<h1>Latest Post</h1>
 			{% for post in site.posts limit:1 %}
-				{{ site.posts.first}}
+				{{ site.posts.first.content}}
 			{% endfor %}
   </body>
 </html>
