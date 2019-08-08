@@ -233,14 +233,14 @@ nav {
     padding-right: 6em
   }
 }
-nav nav a:hover {
-  background-color: #862525;
+nav a.selected, nav a:hover {
+  background-color: $black;
   color: black;
 }
 
-nav nav a.active {
-  background-color: #4c41a5;
-  color: black;
+nav a:active {
+  background-color: $brown;
+  color: brown;
 }
 
 nav a {
