@@ -154,7 +154,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 5px 0;
   background-color: $white; 
   border-bottom: .5px solid $yellow;
   text-align: center;
@@ -177,7 +177,7 @@ img {
     float: none;
     vertical-align: middle;
     display: block;
-    margin: auto;
+    #margin: auto;
   }
 }
 .site-avatar img {
@@ -211,6 +211,7 @@ img {
   color: #666;
   font-size: 1em;
   vertical-align: middle;
+  text-align: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -220,11 +221,13 @@ img {
   }
 }
 nav {
-  float: right;
-  margin-top: 2em;
+ background-color: $antiquewhite;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  margin-top: 1.5em;
   font-family: Pacifico;
   font-size: 1.5em;
   vertical-align: middle;
+  text-align: center;
 }
 
 @media screen and (max-width: 640px) {
@@ -235,10 +238,13 @@ nav {
   }
 }
 nav a.selected, nav a:hover {
-  background-color: #1e5ed2;
-  color: brown;
-  font-color: #FFD700;
-  font-size: 1.1em;
+ -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: $brown;
 }
 
 nav a:active {
