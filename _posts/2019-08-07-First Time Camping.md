@@ -24,7 +24,9 @@ title: First Time Camping
 
 <p>We made it so we at least had AC for the kiddo and luckily the battery ran the toilet so no port-a-potty monster for me. Speaking of the toilet, that was a treat to empty.</p>
 
-<p>Even though we had some learning curves thrown at us we had fun. We laughed through the mistakes and enjoyed the view.</p>
+<p>Even though we had some learning curves thrown at us we had fun. We laughed through the mistakes and</p>
+
+<h1>enjoyed the view.</h1>
 
 ![Campsite](/images/Camping/spot.jpeg)
 
