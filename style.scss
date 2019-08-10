@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, Pacifico, sans-serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -181,7 +181,8 @@ img {
   }
 }
 .site-avatar img {
-  border-radius: 4em;
+  height: 220px;
+  width: 220px;
 }
 
 .site-info {
@@ -219,9 +220,10 @@ img {
   }
 }
 nav {
+  float: right;
   margin-top: 2em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-family: Pacifico;
+  font-size: 1.5em;
   vertical-align: middle;
 }
 

@@ -9,7 +9,7 @@ name: RoamWyom
 description: Please roam freely and enjoy your journey!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://roamwyom.com/images/roamon_logo.png
+avatar: /images/roam_logo.png
 #
 # Flags below are optional
 #
