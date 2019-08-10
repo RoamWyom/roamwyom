@@ -207,7 +207,8 @@ img {
 }
 
 .site-description {
-  margin: auto 10.4em 1em;
+  margin: auto 11.2em 1em;
+  font-family: Pacifico;
   color: #666;
   font-size: 1em;
   vertical-align: middle;
@@ -245,7 +246,7 @@ nav a.selected, nav a:hover {
   -moz-border-radius-bottomleft: 15px;
   -webkit-border-radius: 15px 15px 0px 0px;
   border-radius: 15px 15px 15px 15px;
-  background-color: $brown;
+  background-color: $yellow;
 }
 
 nav a:active {
