@@ -44,6 +44,3 @@ title: First Time Camping
 
 
 <p>(Note this was taken right before Harper decided to become a living stink bomb.)</p>
-
-
-<h1>RoamOn.</h1>

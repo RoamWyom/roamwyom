@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, Pacifico, sans-serif;
+  font-family: Lexend+Deca, "Helvetica Neue", Helvetica, Arial, Pacifico, sans-serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 h1 {
+  font-family: Lexend+Deca, sans-serif;
   font-size: 30px;
 }
 
@@ -69,6 +70,7 @@ h4 {
 }
 
 p {
+  font-family: Lexend+Deca, sans-serif;
   margin: 15px 0;
 }
 
@@ -223,18 +225,18 @@ img {
 }
 nav {
  background-color: $antiquewhite;
- padding-bottom: .3em;
-  -webkit-border-radius: 15px 15px 0px 0px;
+   -webkit-border-radius: 15px 15px 0px 0px;
   margin-top: 1.5em;
   font-family: Pacifico;
-  font-size: 1.5em;
+  font-size: 1.3em;
   vertical-align: middle;
   text-align: center;
 }
 
 @media screen and (max-width: 640px) {
   nav {
-    display: block;
+    float: right;
+    display: inline;
     font-size: 1.47em;
     vertical-align: middle;
   }
@@ -255,11 +257,13 @@ nav a:active {
 }
 
 nav a {
-  margin-left: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  margin-left: 5px;
   color: $yellow;
-  text-align: bottom;
-  font-weight: 300;
-  letter-spacing: .03em;
+  font-weight: 400;
+  letter-spacing: .02em;
 }
 
 @media screen and (max-width: 640px) {
@@ -292,8 +296,15 @@ nav a {
 }
 
 .post .read-more {
+  color: $brown;
   text-transform: uppercase;
   font-size: 15px;
+}
+
+.post .read-more:hover {
+  color: $yellow;
+  text-transform: uppercase;
+  font-size: 17px;
 }
 
 .PageNavigation {
@@ -311,6 +322,7 @@ nav a {
 }
 
 .PageNavigation .next {
+  float: right;
   text-align: right;
 }
 
