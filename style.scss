@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: $white;
+  background: #fff;
   font: 18px/1.4 Helvetica, Arial, sans-serif;
   color: #333;
   margin: 0 auto 50px;
@@ -34,7 +34,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Rubik, Lexend+Deca, "Helvetica Neue", Helvetica, Arial, Pacifico, sans-serif;
+  font-family: Rubik, LexendDeca, "Helvetica Neue", Helvetica, Arial, Pacifico, sans-serif;
   color: #222;
   font-weight: bold;
   line-height: 1.7;
@@ -133,7 +133,7 @@ img {
 
 ::selection {
   color: #000;
-  background: #eee;
+  background: #fddb29;
 }
 
 .clearfix:before,
@@ -151,14 +151,14 @@ img {
 /*********************/
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: $white;
-  border-bottom: 4px solid $yellow;
+  background-color: #fff;
+  border-bottom: 4px solid #FFD700;
 }
 
 .masthead {
   /*padding: 5px 0;*/
-  background-color: $white; 
-  border-bottom: .5px solid $yellow;
+  background-color: #fff;
+  border-bottom: 0.5px solid #FFD700;
   text-align: center;
 }
 
@@ -224,8 +224,8 @@ img {
   }
 }
 nav {
- background-color: $antiquewhite;
-   -webkit-border-radius: 15px 15px 0px 0px;
+  background-color: #faebd7;
+  -webkit-border-radius: 15px 15px 0px 0px;
   margin-top: 1.5em;
   font-family: Pacifico;
   font-size: 1.3em;
@@ -242,17 +242,17 @@ nav {
   }
 }
 nav a.selected, nav a:hover {
- -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topleft: 15px;
   -moz-border-radius-topright: 15px;
   -moz-border-radius-bottomright: 15px;
   -moz-border-radius-bottomleft: 15px;
   -webkit-border-radius: 15px 15px 0px 0px;
   border-radius: 15px 15px 15px 15px;
-  background-color: $yellow;
+  background-color: #FFD700;
 }
 
 nav a:active {
-  background-color: $lightGray;
+  background-color: #eee;
   color: lightGray;
 }
 
@@ -261,7 +261,7 @@ nav a {
   width: 150px;
   height: 35px;
   margin-left: 5px;
-  color: $yellow;
+  color: #FFD700;
   font-weight: 400;
   letter-spacing: .02em;
 }
@@ -269,12 +269,12 @@ nav a {
 @media screen and (max-width: 640px) {
   nav a {
     margin: 0 10px;
-    color: $yellow;
+    color: #FFD700;
   }
 }
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: .1em solid $yellow;
+  border-bottom: 0.1em solid #FFD700;
 }
 
 .posts > .post:last-child {
@@ -296,13 +296,13 @@ nav a {
 }
 
 .post .read-more {
-  color: $brown;
+  color: #D2691E;
   text-transform: uppercase;
   font-size: 15px;
 }
 
 .post .read-more:hover {
-  color: $yellow;
+  color: #FFD700;
   text-transform: uppercase;
   font-size: 17px;
 }
@@ -343,43 +343,45 @@ nav a {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 80px;
   /* Height of the footer */
   position: fixed;
-  box-shadow: 2px 6px 2px 6px rgba(10,10,10,.12), inset 0 3px 0 #ffd718;
+  box-shadow: 2px 6px 2px 6px rgba(10, 10, 10, 0.12), inset 0 3px 0 #ffd718;
 }
+
 @media screen and (max-width: 640px) {
   .footer {
     height: 70px;
-    padding-bottom: 9px;
+    padding-bottom: 2px;
   }
 }
-
-
-.footer_contents {
-  height: 50px;
+.footer_contents, .footer-copyright {
+  /* height: 60px; */
   margin: auto;
-  padding: 8px;
+  padding-top: 10px;
+  text-align: center;
+  position: relative;
 }
+
 @media screen and (max-width: 640px) {
   .footer-contents {
-        float: none;
-    padding: 0;
+    float: none;
+    padding-bottom: 0;
     margin: 0;
   }
 }
-
 .footer-copyright {
-  float: left;
   font-size: 12px;
-  color: $yellow;
+  color: #FFD700;
+  padding: 0;
+  /* position: relative; */
 }
+
 @media screen and (max-width: 640px) {
   .footer-copyright {
-         float: none;
-         padding: 0;
-         margin: 0;
-
+    float: none;
+    padding: 0;
+    margin: 0;
   }
 }
 
