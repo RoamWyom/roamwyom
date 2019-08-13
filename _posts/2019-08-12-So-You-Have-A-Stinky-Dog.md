@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: First Time Camping
+title: So You Have A Stinky Dog
 ---
 
 <p>If you read my last post then you know that my dog, Harper, ended up rolling around in a dead animal on our last camping trip. If you haven’t read my last post its linked here 🡪      <a href="{{ site.baseurl }}/First-Time-Camping">First Time Camping</a> </p>
