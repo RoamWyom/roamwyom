@@ -8,7 +8,7 @@ title: The Importance Of Hobbies
 
  <p>As a mother, wife, student, and part time worker I find it difficult to have hobbies and to keep up with them. However, I know that when I didn’t have anything for me to work on and challenge myself with it really put me into a slump. I felt like I was doing the same thing every day, and nothing was really for myself. </p>
 
-<p>I made a change with the help from my cousin who is a life coach and is a miracle worker. (ill post her website link below.) I started gardening in the spring and though I didn’t know what I was doing then and still have no idea what I am doing now I have grown some cherry tomatoes, beats, raspberries, and I hope to have some pumpkins ready for Halloween.</p>
+<p>I made a change with the help from my cousin who is a life coach and is a miracle worker. (I'll post her website link below.) I started gardening in the spring and though I didn’t know what I was doing then and still have no idea what I am doing now I have grown some cherry tomatoes, beats, raspberries, and I hope to have some pumpkins ready for Halloween.</p>
 
 <h2>My Cherry Tomato plant Charlie.</h2>
 ![Charlie the Cherry Tomato](/images/Hobbies/charlie.jpg) 
