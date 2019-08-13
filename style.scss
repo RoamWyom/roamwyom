@@ -346,12 +346,41 @@ nav a {
   height: 60px;
   /* Height of the footer */
   position: fixed;
+  box-shadow: 2px 6px 2px 6px rgba(10,10,10,.12), inset 0 3px 0 #ffd718;
+}
+@media screen and (max-width: 640px) {
+  .footer {
+    height: 70px;
+    padding-bottom: 9px;
+  }
 }
 
+
 .footer_contents {
-  height: 60px;
+  height: 50px;
   margin: auto;
   padding: 8px;
+}
+@media screen and (max-width: 640px) {
+  .footer-contents {
+        float: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.footer-copyright {
+  float: left;
+  font-size: 12px;
+  color: #ffe99c;
+}
+@media screen and (max-width: 640px) {
+  .footer-copyright {
+         float: none;
+         padding: 0;
+         margin: 0;
+
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
