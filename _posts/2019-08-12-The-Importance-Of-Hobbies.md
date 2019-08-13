@@ -39,11 +39,11 @@ title: The Importance Of Hobbies
 
 <h3>Here is a list of free resources to learn about a new hobby today,</h3>
 
-*Your local library, yes you read right. These still exist. Not only do library’s offer an enormous supply of resources but many libraries have workshops now a days. Our local library here even has a crafting center where they teach you how to make all sorts of things. 
-*YouTube. Millions or how-to videos exists on YouTube with detailed step by step guides on all sorts of subjects.
-*Google. You can google almost anything, and millions of websites, blogs, or videos come up for your disposal. Google has helped me answer a lot of questions about my garden and helped me find solutions to the problems I’ve come across. 
-*Your friends. Talk to your friends about what you want to do. Who knows they may have some knowledge in the subject or know of someone you can talk to. 
-*Look around for internships or shadow positions in the field you want to explore. 
+* Your local library, yes you read right. These still exist. Not only do library’s offer an enormous supply of resources but many libraries have workshops now a days. Our local library here even has a crafting center where they teach you how to make all sorts of things. 
+* YouTube. Millions or how-to videos exists on YouTube with detailed step by step guides on all sorts of subjects.
+* Google. You can google almost anything, and millions of websites, blogs, or videos come up for your disposal. Google has helped me answer a lot of questions about my garden and helped me find solutions to the problems I’ve come across. 
+* Your friends. Talk to your friends about what you want to do. Who knows they may have some knowledge in the subject or know of someone you can talk to. 
+* Look around for internships or shadow positions in the field you want to explore. 
 
 <h2>Whatever you choose to learn roam freely and enjoy every adventure.</h2>
 
